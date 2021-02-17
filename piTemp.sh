@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo 'Pi Temp at: ' >> pitemplog.log
-date >> pitemplog.log
-vcgencmd measure_temp >> pitemplog.log
-echo -------------------------------- >> pitemplog.log
+echo 'Pi Temp on: ' >> pitemp.log
+date >> pitemp.log
+vcgencmd measure_temp >> pitemp.log
+echo -------------------------------- >> pitemp.log
 
 
